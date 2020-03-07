@@ -69,21 +69,21 @@ async function init {
             console.log(engineer.name, engineer.title, engineer.id, engineer.position)
         }
         else {
-            console.log("Incorrect :(")
+            console.log("Incorrect :(");
         }
-    }
+    };
     
     for (var i = 0; i < promptManager.newInternCount; i++){
-        if {
+        if(!/[a-z1-9]/i.test())  {
             const promptIntern = await promptIntern();
             console.log(intern.name, intern.title, intern.id,intern.position)
     
         }
         else {
-            
+            console.log("Incorrect :( ");
         }
-    }
-}
+    };
+};
 
 
 
